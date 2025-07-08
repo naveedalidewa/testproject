@@ -174,11 +174,20 @@ const AddVendorModal = ({ isOpen, onClose, onSuccess }) => {
     if (limitedDigits.length <= 6)
       return `(${limitedDigits.slice(0, 3)}) ${limitedDigits.slice(3)}`;
     if (limitedDigits.length <= 10)
-      return `(${limitedDigits.slice(0, 3)}) ${limitedDigits.slice(3, 6)}-${limitedDigits.slice(6)}`;
+      return `(${limitedDigits.slice(0, 3)}) ${limitedDigits.slice(
+        3,
+        6
+      )}-${limitedDigits.slice(6)}`;
     if (limitedDigits.length === 11 && limitedDigits[0] === "1") {
-      return `1 (${limitedDigits.slice(1, 4)}) ${limitedDigits.slice(4, 7)}-${limitedDigits.slice(7)}`;
+      return `1 (${limitedDigits.slice(1, 4)}) ${limitedDigits.slice(
+        4,
+        7
+      )}-${limitedDigits.slice(7)}`;
     }
-    return `(${limitedDigits.slice(0, 3)}) ${limitedDigits.slice(3, 6)}-${limitedDigits.slice(6, 10)}`;
+    return `(${limitedDigits.slice(0, 3)}) ${limitedDigits.slice(
+      3,
+      6
+    )}-${limitedDigits.slice(6, 10)}`;
   };
 
   // Email validation function
