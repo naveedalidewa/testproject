@@ -9,7 +9,7 @@ const AddVendorModal = ({ isOpen, onClose, onSuccess }) => {
 
   const [formData, setFormData] = useState({
     name: "",
-    contactName: "",
+    contactName: "test",
     phoneNo: "",
     email: "",
     fax: "",
