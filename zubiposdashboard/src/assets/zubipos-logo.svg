@@ -1,0 +1,28 @@
+<svg width="200" height="80" viewBox="0 0 200 80" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Z -->
+  <path d="M8 12 C8 10.5 9.5 9 11 9 L40 9 C45 9 50 14 50 19 C50 22 48 24 45 26 L25 43 L48 43 C49.5 43 51 44.5 51 46 L51 49 C51 50.5 49.5 52 48 52 L11 52 C6 52 1 47 1 42 C1 39 3 37 6 35 L26 18 L11 18 C9.5 18 8 16.5 8 15 L8 12 Z" fill="url(#orangeGradient)"/>
+  
+  <!-- u -->
+  <path d="M60 25 L60 40 C60 44 63 47 67 47 C71 47 74 44 74 40 L74 25 L79 25 L79 40 C79 47 73 52 67 52 C61 52 55 47 55 40 L55 25 L60 25 Z" fill="#FF6B35"/>
+  
+  <!-- b -->
+  <path d="M87 15 L87 29 C89 27 92 26 95 26 C102 26 108 32 108 39 C108 46 102 52 95 52 C92 52 89 51 87 49 L87 52 L82 52 L82 15 L87 15 Z M95 30 C92 30 87 33 87 39 C87 45 92 48 95 48 C98 48 103 45 103 39 C103 33 98 30 95 30 Z" fill="#FF8C42"/>
+  
+  <!-- i -->
+  <path d="M115 20 C117 20 119 22 119 24 C119 26 117 28 115 28 C113 28 111 26 111 24 C111 22 113 20 115 20 Z M112.5 25 L117.5 25 L117.5 52 L112.5 52 L112.5 25 Z" fill="#FFB84D"/>
+  
+  <!-- POS text -->
+  <text x="10" y="70" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#1E3A8A">POS</text>
+  
+  <!-- Decorative lines -->
+  <line x1="50" y1="67" x2="70" y2="67" stroke="#1E3A8A" stroke-width="2"/>
+  <line x1="130" y1="67" x2="150" y2="67" stroke="#1E3A8A" stroke-width="2"/>
+  
+  <!-- Gradient definitions -->
+  <defs>
+    <linearGradient id="orangeGradient" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#FF9919"/>
+      <stop offset="100%" style="stop-color:#E68A17"/>
+    </linearGradient>
+  </defs>
+</svg>
